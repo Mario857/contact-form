@@ -22,9 +22,10 @@
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.1",
-    "typescript": "^3.7.5"
+    "typescript": "^3.9.5"
   },
   "scripts": {
     "start-api": "cross-env NODE_ENV=development nodemon api/bin/www --watch api/*",
@@ -50,6 +51,8 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.0"
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.0",
+    "postcss-normalize": "^9.0.0"
   }
 }
