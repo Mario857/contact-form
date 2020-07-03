@@ -1,13 +1,13 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
-import { HomePage } from "./pages";
+import { HomePage, ContactForm } from "./pages";
 
 function App() {
   return (
     <Switch>
       <Route path='/contact-form'>
-        <div>Contact Form</div>
+        <ContactForm />
       </Route>
       <Route path='/'>
         <HomePage />
